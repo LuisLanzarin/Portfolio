@@ -99,15 +99,8 @@ body{
     }
 
     .conteudo{
-        width: 90%; 
-        max-width: 100%;
-        word-wrap: break-word; 
-        overflow-wrap: break-word; 
-        white-space: normal; 
-        text-align: justify; 
-        margin: 0 auto; 
-        font-size: 16px; 
-        line-height: 1.5; 
+        width: 100%;
+        align-content:start; 
     }
     .rodape{
         width: 100%;
