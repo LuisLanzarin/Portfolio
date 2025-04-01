@@ -55,13 +55,13 @@ body{
 
 .biografia__titulo{
     color: var(--cor-terciaria);
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: 'Krona One', sans-serif;
 }
 
 .biografia__texto{
     width: auto;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -98,7 +98,7 @@ body{
         font-size: 1rem; 
     }
 
-    .biografia{
+    .conteudo{
         width: 90%; 
         max-width: 100%;
         word-wrap: break-word; 
@@ -116,6 +116,4 @@ body{
         background-color: var(--cor-terciaria); 
         color: var(--cor-primaria);
     }
-    
-    
 }
