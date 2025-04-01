@@ -97,20 +97,24 @@ body{
     .cabecalho__menu__link {
         font-size: 1rem; 
     }
-    
-    .apresentacao{
-        flex-direction: column-reverse;
-        padding: 5%;
-    }
-    .apresentacao__conteudo{
-        width: auto;
+
+    .biografia{
+        width: 90%; 
+        max-width: 100%;
+        word-wrap: break-word; 
+        overflow-wrap: break-word; 
+        white-space: normal; 
+        text-align: justify; 
+        margin: 0 auto; 
+        font-size: 16px; 
+        line-height: 1.5; 
     }
     .rodape{
         width: 100%;
-    text-align: center;
-    padding: 10px;
-    background-color: var(--cor-terciaria); /* Ajuste conforme o design */
-    color: var(--cor-primaria);
+        text-align: center;
+        padding: 10px;
+        background-color: var(--cor-terciaria); 
+        color: var(--cor-primaria);
     }
     
     
