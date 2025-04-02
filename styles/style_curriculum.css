@@ -3,7 +3,7 @@
 :root{
     --cor-primaria: #000000;
     --cor-secundaria: #F6F6F6;
-    --cor-terciaria: #22D4FD;
+    --cor-terciaria: #0ef10e;
     --cor-hover: #272727;
 
     --fonte-primaria: 'Krona One', sans-serif;
@@ -35,6 +35,11 @@ body {
     text-decoration: none;
 }
 
+.logos{
+    width: 2rem;
+    height: 2rem;
+}
+
 .conteudo{
     display: flex;
     align-items: center;
@@ -48,7 +53,7 @@ body {
     padding: 1%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 .container__info{
@@ -57,7 +62,7 @@ body {
 }
 
 .resumo{
-    font-size: 22px;
+    font-size: 1.3rem;
 }
 
 h1{
@@ -65,14 +70,14 @@ h1{
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 1.5rem;
     color: var(--cor-terciaria);
     padding-bottom: 5px;
     margin-top: 20px;
 }
 
 h3 {
-    font-size: 22px;
+    font-size: 1.3rem;
     color: var(--cor-primaria);
 }
 
@@ -101,14 +106,14 @@ ul li {
 .apresentacao__links__subtitulo{
     font-family: 'Krona One', sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: var(--cor-terciaria);
 }
 .apresentacao__links__link{
     width: 378px;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
@@ -128,7 +133,7 @@ ul li {
     color: var(--cor-primaria);
     padding: 24px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     text-align: center;
     font-weight: 400;
 }
@@ -150,7 +155,7 @@ ul li {
     .cabecalho__menu__link {
         font-size: 1rem; 
     }
-    
+
     .conteudo{
         flex-direction: column-reverse;
         padding: 5%;
@@ -163,7 +168,7 @@ ul li {
         width: 100%;
     text-align: center;
     padding: 10px;
-    background-color: var(--cor-terciaria); /* Ajuste conforme o design */
+    background-color: var(--cor-terciaria); 
     color: var(--cor-primaria);
     }
     
