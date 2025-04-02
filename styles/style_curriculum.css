@@ -65,6 +65,13 @@ body {
     font-size: 1.3rem;
 }
 
+.experiencia{
+    text-decoration: none;
+}
+.formacao{
+    text-decoration: none;
+}
+
 h1{
     color: var(--cor-terciaria);
 }
