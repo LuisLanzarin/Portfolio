@@ -169,6 +169,7 @@ ul li {
     }
     .container{
         width: auto;
+        text-decoration: none;
     }
     
     .rodape{
