@@ -65,10 +65,7 @@ body {
     font-size: 1.3rem;
 }
 
-.experiencia{
-    text-decoration: none;
-}
-.formacao{
+.container__info{
     text-decoration: none;
 }
 
@@ -169,6 +166,8 @@ ul li {
     }
     .container{
         width: auto;
+    }
+    .container__info{
         text-decoration: none;
     }
     
