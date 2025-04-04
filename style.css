@@ -273,5 +273,76 @@ p {
         flex-direction: row-reverse;
     }
 
+      @media only screen and (max-width: 600px) {
+    html {
+      font-size: 9px;
+    }
+  
+    .section-title {
+      font-size: 2.8rem;
+      letter-spacing: 0.1rem;
+    }
+  
+    .container {
+      flex-direction: column;
+      padding: 20px;
+      text-align: center;
+    }
+  
+    #presentation h1 {
+      font-size: 3rem;
+      text-align: center;
+    }
+  
+    #presentation .cta {
+      font-size: 1.6rem;
+      padding: 8px 20px;
+    }
+  
+    #portfolio .portfolio {
+      margin: 0;
+      padding: 60px 10px;
+    }
+  
+    #portfolio .project-item {
+      width: 100%;
+      flex-direction: column;
+    }
+  
+    #portfolio .project-info {
+      padding: 20px;
+      text-align: center;
+    }
+  
+    #portfolio .project-info h1 {
+      font-size: 2.4rem;
+    }
+  
+    #portfolio .project-info h2 {
+      font-size: 1.6rem;
+    }
+  
+    .project-img {
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+    }
+  
+    .project-img a {
+      width: 100%;
+      height: auto;
+    }
+  
+    .project-img img {
+      object-fit: cover;
+      height: auto;
+    }
+  
+    .ancoras {
+      width: 100%;
+      align-items: center;
+    }
+  }
+
 
 }
