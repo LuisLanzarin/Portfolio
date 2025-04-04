@@ -17,7 +17,6 @@ html{
     display: flex;
     flex-direction: column;
     size: 30%;
-
 }
 a{
     text-decoration: none;
@@ -96,7 +95,6 @@ p {
     margin-top: 20px;
     transition: .5s ease;
     transition-property: background-color, color;
-
 }
 #presentation .cta:hover{
     color: white;
@@ -185,9 +183,32 @@ p {
     margin-top: 10px;
 }
 
-#portfolio .project-img {
-    flex-basis: 50%;
-    height: 300px;
+.project-img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px; /* ou 100% */
+    height: 600px;
+    gap: 0; /* ou algum espaço se quiser */
+  }
+  .project-img a {
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+    display: block;
+  }
+  .project-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    display: block;
+  }
+  .project-img a:hover img {
+    transform: scale(1.1);
+  }
+.link{
+    display: flex;
+    flex-wrap: wrap;
     overflow: hidden;
     position: relative;
 }
@@ -199,7 +220,6 @@ p {
     top:0;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
     opacity: 0.7;
 }
 #portfolio .project-img img{
