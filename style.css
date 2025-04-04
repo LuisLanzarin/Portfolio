@@ -16,16 +16,19 @@ html{
 .ancoras{
     display: flex;
     flex-direction: column;
-    size: 30%;
+    width: 75%;
 }
+
 a{
     text-decoration: none;
 }
+
 img{
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
+
 p {
     font-size: 1.4rem;
     margin-top: 5px;
@@ -41,6 +44,7 @@ p {
     align-items: center;
     justify-content: center;
 }
+
 .section-title {
     font-size: 4rem;
     font-weight: 500;
@@ -51,8 +55,6 @@ p {
     letter-spacing: 0.2rem;
     text-align: center;
 }
-
-
 
 /* Seção de apresentação */
 
@@ -138,6 +140,7 @@ p {
     flex-direction: column;
     max-width: 120em;
     margin: 0 auto;
+    margin-left: 37.5em;
     padding: 100px 0;
 }
 #portfolio .portfolio-header h1{
@@ -186,26 +189,27 @@ p {
 .project-img {
     display: flex;
     flex-wrap: wrap;
-    width: 60em;
+    width: 60em; 
     height: 60em;
     gap: 0; 
-  }
-  .project-img a {
+}
+.project-img a {
     width: 50%;
     height: 50%;
     overflow: hidden;
     display: block;
-  }
-  .project-img img {
+}
+.project-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease;
     display: block;
-  }
-  .project-img a:hover img {
+}
+.project-img a:hover img {
     transform: scale(1.1);
-  }
+}
+
 .link{
     display: flex;
     flex-wrap: wrap;
@@ -239,10 +243,9 @@ p {
 @keyframes text_reveal_name{
     100%{
         color: #00ff00;
-        font-weight: 500px;
+        font-weight: 500;
     }
 }
-
 @keyframes text_reveal_box{
     50%{
         width:100%;
@@ -254,7 +257,7 @@ p {
     }
 }
 
-/* Media Query */
+/* Responsividade: Tablets e PCs */
 @media only screen and (min-width: 768px) {
     #portfolio .project-item {
         flex-direction: row;
@@ -272,77 +275,76 @@ p {
     #portfolio .project-item:nth-child(even) {
         flex-direction: row-reverse;
     }
+}
 
-      @media only screen and (max-width: 600px) {
+/* RESPONSIVIDADE PARA CELULARES */
+@media only screen and (max-width: 600px) {
     html {
-      font-size: 9px;
+        font-size: 9px;
     }
-  
+
     .section-title {
-      font-size: 2.8rem;
-      letter-spacing: 0.1rem;
+        font-size: 2.8rem;
+        letter-spacing: 0.1rem;
     }
-  
+
     .container {
-      flex-direction: column;
-      padding: 20px;
-      text-align: center;
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
     }
-  
+
     #presentation h1 {
-      font-size: 3rem;
-      text-align: center;
+        font-size: 3rem;
+        text-align: center;
     }
-  
+
     #presentation .cta {
-      font-size: 1.6rem;
-      padding: 8px 20px;
+        font-size: 1.6rem;
+        padding: 8px 20px;
     }
-  
+
     #portfolio .portfolio {
-      margin: 0;
-      padding: 60px 10px;
+        margin: 0;
+        padding: 60px 10px;
     }
-  
+
     #portfolio .project-item {
-      width: 100%;
-      flex-direction: column;
+        width: 100%;
+        flex-direction: column;
     }
-  
+
     #portfolio .project-info {
-      padding: 20px;
-      text-align: center;
+        padding: 20px;
+        text-align: center;
     }
-  
+
     #portfolio .project-info h1 {
-      font-size: 2.4rem;
+        font-size: 2.4rem;
     }
-  
+
     #portfolio .project-info h2 {
-      font-size: 1.6rem;
+        font-size: 1.6rem;
     }
-  
+
     .project-img {
-      width: 100%;
-      height: auto;
-      flex-direction: column;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
     }
-  
+
     .project-img a {
-      width: 100%;
-      height: auto;
+        width: 100%;
+        height: auto;
     }
-  
+
     .project-img img {
-      object-fit: cover;
-      height: auto;
+        object-fit: cover;
+        height: auto;
     }
-  
+
     .ancoras {
-      width: 100%;
-      align-items: center;
+        width: 100%;
+        align-items: center;
     }
-  }
-
-
 }
