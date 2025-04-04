@@ -186,9 +186,9 @@ p {
 .project-img {
     display: flex;
     flex-wrap: wrap;
-    width: 600px; /* ou 100% */
-    height: 600px;
-    gap: 0; /* ou algum espaço se quiser */
+    width: 60em;
+    height: 60em;
+    gap: 0; 
   }
   .project-img a {
     width: 50%;
